@@ -10,3 +10,12 @@ body{
   background: rgba(200, 255, 205, 0.8);
   box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
 }
+.container ng-scope{
+  background-image: url("http://img12.deviantart.net/0c06/i/2012/115/4/e/caballo_galopando_by_andreiita98-d4xjsic.jpg");
+}
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #000000;
+    border-color: #ddd;
+}
+/* FIN CSS FORMULARIO */
