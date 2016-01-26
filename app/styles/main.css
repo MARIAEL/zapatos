@@ -1,21 +1,51 @@
+
 /* CSS FORMULARIO */
 body{
-    background-color: #525252;
+    background-color: #FFFD9E;
+}
+.zapatos{
+  background-image: url("http://g01.a.alicdn.com/kf/HTB16yTDHVXXXXaiXXXXq6xXFXXXF/2015-nueva-mujer-tacones-de-plataforma-bombas-zapatos-de-la-boda-zapatos-de-tac%C3%B3n-rojo-8.jpg_640x640.jpg");
+  width: 55%;
+  height: 300px;
+  text-align: center;
+  border: 5px solid #4F0A0C;
+  border-radius: 25px;
 }
 .centered-form{
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .centered-form .panel{
-  background: rgba(200, 255, 205, 0.8);
-  box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+  background:  #051E2B;
+  box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 20px;
+  border-radius: 15px 15px 15px 15px;
 }
-.container ng-scope{
-  background-image: url("http://img12.deviantart.net/0c06/i/2012/115/4/e/caballo_galopando_by_andreiita98-d4xjsic.jpg");
+.panel-body{
+	background-color: #8C191F;
+    border: 2px solid #051E2B;
+    border-radius: 0 0 15px 15px;
+}
+.panel-default{
+	color: #fff;
+    background-color: #4F0A0C;
+    border: 1px solid #051E2B;
 }
 .panel-default > .panel-heading {
     color: #fff;
-    background-color: #000000;
-    border-color: #ddd;
+    background-color: #4F0A0C;
+    border: 1px solid #051E2B;
+   border-radius: 15px 15px 0 0;
+}
+
+input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
+	background-color: #4F0A0C;
+	border: 1px solid #051E2B;
+	width: 100px;
+	margin-left: 35%;
+
 }
 /* FIN CSS FORMULARIO */
+
+.footer{
+	color: #4F0A0C;
+}
