@@ -1,5 +1,5 @@
-
-/* CSS FORMULARIO */
+/* 
+CSS FORMULARIO
 body{
     background-color: #FFFD9E;
 }
@@ -21,12 +21,12 @@ body{
   border-radius: 15px 15px 15px 15px;
 }
 .panel-body{
-	background-color: #8C191F;
+    background-color: #8C191F;
     border: 2px solid #051E2B;
     border-radius: 0 0 15px 15px;
 }
 .panel-default{
-	color: #fff;
+    color: #fff;
     background-color: #4F0A0C;
     border: 1px solid #051E2B;
 }
@@ -38,14 +38,75 @@ body{
 }
 
 input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
-	background-color: #4F0A0C;
-	border: 1px solid #051E2B;
-	width: 100px;
-	margin-left: 35%;
+    background-color: #4F0A0C;
+    border: 1px solid #051E2B;
+    width: 100px;
+    margin-left: 35%;
 
 }
-/* FIN CSS FORMULARIO */
+FIN CSS FORMULARIO */
 
 .footer{
 	color: #4F0A0C;
+}
+/**
+ * parallax.css
+ * @Author Original @msurguy -> http://bootsnipp.com/snippets/featured/parallax-login-form
+ * @Reworked By @kaptenn_com 
+ * @package PARALLAX LOGIN.
+ */
+    
+    body {
+        background-color: #444;
+        background: url(http://www.que.es/archivos/201309/9-modelos-de-zapatos-que-toda-mujer-debe-tener-672xXx80-1.jpg);
+        
+    }
+    .form-signin input[type="text"] {
+        margin-bottom: 5px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .form-signin .form-control {
+        position: relative;
+        font-size: 16px;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        height: auto;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .vertical-offset-100 {
+        padding-top: 100px;
+    }
+    .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    }
+    .panel {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid #051E2B;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    }
+    .panel-default > .panel-heading {
+    color: #333;
+    background-color: #31708f;
+    border-color: #ddd;
+    border-bottom: 1px solid #051E2B;
+
+}
+.btn-success:focus, .btn-success.focus {
+    color: #fff;
+    background-color: #31708f;
+    border-color: #255625;
 }
